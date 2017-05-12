@@ -1,0 +1,26 @@
+{
+  "name": "ramda-with-rollup-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olsonpm/ramda-with-rollup-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olsonpm/ramda-with-rollup-example/issues"
+  },
+  "homepage": "https://github.com/olsonpm/ramda-with-rollup-example#readme",
+  "dependencies": {
+    "ramda": "github:olsonpm/ramda#es6-modules-with-pure",
+    "rollup": "^0.41.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "github:olsonpm/rollup-plugin-uglify#dist"
+  }
+}
