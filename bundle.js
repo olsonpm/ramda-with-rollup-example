@@ -31,4 +31,4 @@ var add = function(r) {
     return Number(r) + Number(e);
 });
 
-Array.isArray, console.log(add(1, 2))
+Array, console.log(add(1, 2))

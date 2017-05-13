@@ -11,6 +11,7 @@ export default {
         passes: 3
         , toplevel: true
         , side_effects: true
+        , pure_getters: true
       }
       , output: {
         beautify: true
